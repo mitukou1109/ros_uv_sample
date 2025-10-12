@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+PACKAGE_NAME="uv_sample"
+EXECUTABLE_NAME="minimal_publisher"
+
+INSTALL_DIR="$(ros2 pkg prefix $PACKAGE_NAME)"
+
+"$INSTALL_DIR/share/$PACKAGE_NAME/.venv/bin/python3" \
+  -c "import $PACKAGE_NAME.$EXECUTABLE_NAME; $PACKAGE_NAME.$EXECUTABLE_NAME.main()"
