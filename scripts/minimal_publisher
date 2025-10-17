@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-PACKAGE_NAME="uv_sample"
+PACKAGE_NAME="ros_uv_sample"
 EXECUTABLE_NAME="minimal_publisher"
 
 INSTALL_DIR="$(ros2 pkg prefix $PACKAGE_NAME)"

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(uv_sample)
+project(ros_uv_sample)
 
 find_package(ament_cmake_auto REQUIRED)
 

@@ -1,5 +1,5 @@
 [project]
-name = "uv-sample"
+name = "ros-uv-sample"
 version = "0.1.0"
 description = "uv-managed python package sample"
 readme = "README.md"
